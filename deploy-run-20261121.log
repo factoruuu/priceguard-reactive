@@ -1,0 +1,48 @@
+== 0. Convert 0.1 Base Sepolia ETH -> 10 lREACT on Lasna ==
+
+blockHash            0x28a5ca17b6d1a47139607fee99229fa467e4fb3af286d39e480d9cfaca893ca6
+blockNumber          61491948
+contractAddress      
+cumulativeGasUsed    2267960
+effectiveGasPrice    6000000
+from                 0xe73684D70E244E1ae7A1c8C2694f76f802B97AcC
+gasUsed              25597
+logs                 [{"address":"0x2afafd298b23b62760711756088f75b7409f5967","topics":["0x8e191feb68ec1876759612d037a111be48d8ec3db7f72e4e7d321c2c8008bd0d","0x000000000000000000000000e73684d70e244e1ae7a1c8c2694f76f802b97acc","0x000000000000000000000000000000000000000000000000016345785d8a0000"],"data":"0x","blockHash":"0x28a5ca17b6d1a47139607fee99229fa467e4fb3af286d39e480d9cfaca893ca6","blockNumber":"0x3aa4aec","blockTimestamp":"0x6b00e322","transactionHash":"0xbd5996f6a8739a94916ed58292791ac2b859bdf4a5bbf9d1d2fa21e52550a024","transactionIndex":"0x4","logIndex":"0x16","removed":false,"blockTimestampMs":"0x1a1fb773e60"}]
+logsBloom            0x00000000000400000000400000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000002000000000000000000000000000002008000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000800000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000
+root                 
+status               1 (success)
+transactionHash      0xbd5996f6a8739a94916ed58292791ac2b859bdf4a5bbf9d1d2fa21e52550a024
+transactionIndex     4
+type                 2
+blobGasPrice         
+blobGasUsed          44600
+to                   0x2afaFD298b23b62760711756088F75B7409f5967
+l1GasPrice           14
+l1GasUsed            1600
+l1Fee                79476071503
+l1FeeScalar          
+l1BaseFeeScalar      1101
+l1BlobBaseFee        1204454816
+l1BlobBaseFeeScalar  659851
+operatorFeeScalar    
+operatorFeeConstant  
+daFootprintGasScalar 446
+depositNonce         
+depositReceiptVersion 
+payer                
+phaseStatuses        
+metadata             
+lREACT balance: 10000000000000000000
+== 1. Base Sepolia: tokens + price feed ==
+Warning: Dry run enabled, not broadcasting transaction
+
+Warning: To broadcast this transaction, add --broadcast to the previous command. See forge create --help for more.
+Warning: Dry run enabled, not broadcasting transaction
+
+Warning: To broadcast this transaction, add --broadcast to the previous command. See forge create --help for more.
+Warning: Dry run enabled, not broadcasting transaction
+
+Warning: To broadcast this transaction, add --broadcast to the previous command. See forge create --help for more.
+GRD= MUSD= FEED=
+== 2. Lasna: reactive contract (stop-loss at $90, funded with 5 lREACT) ==
+Error: Constructor argument count mismatch: expected 4 but got 2
